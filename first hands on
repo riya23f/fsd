@@ -1,0 +1,36 @@
+//heres the code of first hands on including how to paste the picture from web and add pictures frm files etc 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hands on </title>
+</head>
+<body>
+    <a href="https://www.google.com/" target="_blank">Visit google!</a>
+    <br> 
+    <a href="https://www.flipkart.com" > visit flipkart </a>
+    <br> 
+
+    <img src="https://paradepets.com/.image/t_share/MTkxMzY1Nzg4NjczMzIwNTQ2/cutest-dog-breeds-jpg.jpg" height="300" width="30%">
+<img src="./riya.jpg.jpg"> 
+<!-- we will use the ./ for pasting from my files  -->
+<ul>
+    <li>Coffee</li>
+    <li>Tea</li>
+    <li>Milk</li>
+  </ul>
+  
+  <ul>
+    <li>Coffee</li>
+    <li>Tea
+      <ul>
+        <li>Black tea</li>
+        <li>Green tea</li>
+      </ul>
+    </li>
+    <li>Milk</li>
+  </ul>
+    
+</body>
+</html>
