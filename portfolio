@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>portfolio</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <!-- External kit for icons -->
+    <script
+      src="https://kit.fontawesome.com/ef374a47ca.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- --------------------------------------------------- HOME PAGE SECTION ------------------------------------------------------------>
+    <div id="header">
+      <div class="container">
+        <nav id="navbar">
+          <!-- here w have to use user image for the home page -->
+          <img src="" class="logo" />
+          <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+          </ul>
+          <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+          <!-- in this <p> tag w will write our skills as heading-->
+          <p>STUDENT AT PSIT</p>
+          <h1>
+            Hi, I am <span>Riyya</span><br />
+            Tiwari
+          </h1>
+        </div>
+      </div>
+    </div>
+    <!-- ------------------------------------------------------- ABOUT SECTION --------------------------------------------------------------->
+    <div id="about">
+      <!-- <img src="./images/5277949.png" > -->
+      <div class="container">
+        <!-- <img src="./images/5277949.png" > -->
+       
+        <div class="row">
+          <!-- Here we have to use th users image for the about section -->
+          <div class="about-col-1"><img src="./imgs/imgs/ritz.png.jpg"></div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <!-- we have to write about the user here -->
+            <p>
+              Hello, my name is RIYYA Tiwari, and I am currently pursuing a BCA degree. My skills include C++, Web Development, Front-end Technology, and Programming. I have developed a website for a travel agency as part of my projects. Additionally, I attended a seminar on India's 5 trillion economy, which broadened my understanding of the country's economic landscape. I am from Kanpur and am passionate about leveraging my technical skills to create impactful solutions."
+           
+          <BR> 
+          <h2> Education</h2>
+          <p> i have done my schooling from SHIVAJI INTER COLLEGE 
+            UTTAR PRADESH KANPUR 
+          from 2023 to 2024 pursuing bachelorette in computer application form
+        PSIT COLLEGE OF HIGHER EDUCATION UTTAR PRADESH KANPUR 
+      Specialisation in web development </p>
+      <h2>
+        Experience 
+        </h2>
+        <p> i have done internship at codsoft with specialisation in c++ programming 
+          I have been in Development field from past 3 months <br /> and still counting.I do competetive
+                    programming and general problem solving on platforms
+                    like - Leetcode, Hackerrank.
+        </p>
+      </h2>
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li>
+                  <span>Development</span><br />Websites, Front-end, Back-end
+                </li>
+              </ul>
+            </div>
+            <br> 
+            <hr>
+
+            
+    <!-- CONTACT ME SECTION  -->
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p>
+              <i class="fa-solid fa-envelope"></i>riya840tiwari@gmail.com
+            </p>
+            <p><i class="fa-solid fa-phone"></i>+91 8840175294</p>
+            <div class="social-icons">
+              <a href="https://www.linkedin.com/in/riya-tiwari-84a77a289?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank"
+                ><i class="fa-brands fa-linkedin"></i
+              ></a>
+              <a href="https://www.twitter.com" target="_blank"
+                ><i class="fa-brands fa-twitter"></i
+              ></a>
+              <a href="https://www.instagram.com/riyyyay_" target="_blank"
+                ><i class="fa-brands fa-instagram"></i
+              ></a>
+              <a href="https://www.whatsapp.com" target="_blank"
+                ><i class="fa-brands fa-whatsapp"></i
+              ></a>
+            </div>
+            
+          </div>
+          <div class="contact-right">
+            <form name="submit-to-google-sheet">
+              <input type="text" name="Name" placeholder="Your Name" required />
+              <input
+                type="email"
+                name="email"
+                placeholder="Your email"
+                required
+              />
+              <textarea
+                name="Message"
+                cols="10"
+                rows="6"
+                placeholder="Your Message"
+              ></textarea>
+              <button type="submit" class="btn btn2">Submit</button>
+            </form>
+            <span id="msg"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
